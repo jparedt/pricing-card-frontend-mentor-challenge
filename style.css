@@ -124,6 +124,6 @@ button:hover {
 ul {
     padding: 0;
     list-style: none;
-    font-size: 0.8;
+    font-size: 0.8rem;
     opacity: 0.8;
 }
