@@ -30,11 +30,13 @@ h2, h3, p {
 }
 
 .card {
-    width: 650px;
-    height: 400px;
+    width: 80%;
     border-radius: 7px;
     overflow: hidden;
     box-shadow: 10px 10px 29px -13px rgba(0,0,0,0.84);
+    margin: auto;
+    margin-top: 10%;
+    text-align: center;
     
 }
 
@@ -59,7 +61,7 @@ h2, h3, p {
 
 #bottom-left{
     display: inline-block;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: #2bb3b1;
     vertical-align: top;
@@ -114,7 +116,7 @@ button:hover {
 
 #bottom-right{
     display: inline-block;
-    width: 50%;
+    width: 100%;
     height: 100%;
     background-color: #4abebd;
     vertical-align: top;
@@ -124,6 +126,24 @@ button:hover {
 ul {
     padding: 0;
     list-style: none;
-    font-size: 0.8rem;
     opacity: 0.8;
+    font-size: 0.85rem;
+}
+
+@media (min-width: 660px) {
+
+    .card{
+        width: 650px;
+        height: 400px;
+        text-align: left;
+        
+    }    
+
+    #bottom-left, #bottom-right {
+        width: 50%;
+        
+    }
+
+    
+    
 }
